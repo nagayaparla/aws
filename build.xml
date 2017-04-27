@@ -1,9 +1,5 @@
-<project name="SBI" basedir="." default=" ">
-<target name="one">
-<antcall target="war"/>
-<echo message="naga"/>
-</target>
+<project name="SBI" basedir="." default="war">
 <target name="war">
-<echo message="baskar"/>
+<war destfile="./war/javafiles.war" basedir="./dest" needxmlfile='false'/>
 </target>
 </project>
