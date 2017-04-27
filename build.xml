@@ -1,0 +1,9 @@
+<project name="SBI" basedir="." default=" ">
+<target name="one">
+<antcall target="war"/>
+<echo message="naga"/>
+</target>
+<target name="war">
+<echo message="baskar"/>
+</target>
+</project>
